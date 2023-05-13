@@ -1,0 +1,38 @@
+/* CSS styles for the UI */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#new-todo {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+#add-todo {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.todo-item-text {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.todo-item-check {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
